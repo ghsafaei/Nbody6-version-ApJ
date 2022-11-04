@@ -1,8 +1,12 @@
 # Nbody6-version-ApJ
 
+
+
 https://ftp.ast.cam.ac.uk/pub/sverre/
 
 
+make clean
+make mcluster
 ./mcluster  -C2  -o test2        > adetails.log 2>atest.err&
 
 
@@ -14,7 +18,8 @@ https://ftp.ast.cam.ac.uk/pub/sverre/
 
 
 
-
+make clean
+make
 echo \"test2\"  nohup | ../nbody6-master/Ncode/nbody6 > test2.log 2>test.err&
 
 
